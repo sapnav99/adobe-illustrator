@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import ColorPalette from './ColorPalette';
-import ImageListComponent from './ImageListComponent';
+import ColorPalette from './Color/ColorPalette';
+import ImageListComponent from './Images/ImageListComponent';
 
-import PaintingCanvas from './PaintingCanvas';
+import PaintingCanvas from './Painting/PaintingCanvas';
 
 const API_KEY = 'j6rEvm0z6Tmy92lNy3Qg87s5vq67042RVjVfNSstrpGWoGKP0gjKTspd';
 

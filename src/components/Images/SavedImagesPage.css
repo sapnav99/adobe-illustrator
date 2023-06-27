@@ -1,0 +1,31 @@
+.saved-images-page {
+    padding: 20px;
+  }
+  
+  .saved-images-title {
+    margin-bottom: 20px;
+  }
+  
+  .saved-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .saved-image-item {
+    position: relative;
+  }
+  
+  .saved-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .saved-image-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  

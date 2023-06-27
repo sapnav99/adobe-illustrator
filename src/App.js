@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import SavedImagesPage from './components/SavedImagesPage';
+import SavedImagesPage from './components/Images/SavedImagesPage';
 import './App.css';
 
 const App = () => {

@@ -1,0 +1,11 @@
+.painting-canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    height: 600px;
+    width: 600px;
+    border-radius: 50px;
+  }
+  .brush-size {
+    font-size: 12px;
+  }
+ 
